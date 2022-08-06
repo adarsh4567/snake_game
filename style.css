@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+body{
+    background: url("./pic.jpg");
+    background-size: cover;
+    
+}
+.dragon{
+    background-position: center center;
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    display: none;
+
+}
+#dragon1{
+    background-image: url("./Images/dragon1.gif");
+    top: 10%;
+    left: 65%;
+}
+#dragon2{
+    background-image: url("./Images/dragon2.gif");
+    transform: rotateY(180deg);
+    top: 10%;
+    left: 9%;
+}
+
+h1{
+    text-align: center;
+    margin: 1rem;
+}
+canvas{
+    box-shadow: 5px 5px 6px rgba(0,0,0,0.2);
+    position: absolute;
+    left: 30%;
+    
+}
